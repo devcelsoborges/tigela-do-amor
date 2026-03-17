@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Projeto Tigela do Amor: ajude a transformar vidas de gatos em situação de rua com doações e apoio." />
+  <title>Projeto Tigela do Amor | Ajude a Transformar Vidas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <div class="badge">PROJETO SOLIDÁRIO</div>
+      <h1>PROJETO TIGELA DO AMOR</h1>
+      <p class="subtitle">Ajude a transformar vidas de gatos em situação de rua.</p>
+
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#doar">Quero Ajudar Agora</a>
+        <a class="btn btn--ghost" href="#impacto">Ver Nosso Impacto</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="about section">
+      <div class="container about__grid">
+        <div class="about__logo-card">
+          <img src="assets/logo-tigelo.svg" alt="Logo Projeto Tigela do Amor" class="logo" />
+          <p class="logo-hint">Se quiser, substitua o arquivo <strong>assets/logo-tigelo.svg</strong> pela logo oficial em melhor resolução.</p>
+        </div>
+
+        <div>
+          <h2>Quem somos</h2>
+          <p>
+            O Projeto Tigela do Amor nasceu do desejo de ajudar gatos em situação de rua.
+            Cansamos de ver tantos animais sofrendo, passando fome e sem cuidados.
+            Por isso, criamos uma rede de ajuda movida pela solidariedade de pessoas que acreditam nessa causa.
+          </p>
+          <p>
+            Realizamos alimentação diária, ações semanais nas ruas, monitoramento de saúde e resgates.
+            Cada gatinho resgatado para adoção recebe os cuidados necessários para encontrar um lar responsável.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="impact section" id="impacto">
+      <div class="container">
+        <h2>Nosso impacto hoje</h2>
+        <div class="cards">
+          <article class="card">
+            <strong class="counter" data-target="100">0</strong>
+            <span>gatos alimentados diariamente</span>
+          </article>
+          <article class="card">
+            <strong class="counter" data-target="15">0</strong>
+            <span>gatos em abrigo aguardando adoção</span>
+          </article>
+          <article class="card">
+            <strong class="counter" data-target="1600">0</strong>
+            <span>reais em ração por mês (aprox.)</span>
+          </article>
+          <article class="card">
+            <strong class="counter" data-target="200">0</strong>
+            <span>reais em custos iniciais de formalização</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="details section">
+      <div class="container details__grid">
+        <article>
+          <h3>Para onde vai sua ajuda</h3>
+          <ul>
+            <li>Alimentação diária de gatos em situação de rua</li>
+            <li>Acompanhamento e cuidados veterinários</li>
+            <li>Resgates emergenciais</li>
+            <li>Vermifugação, testes e castração</li>
+            <li>Formalização do projeto como associação</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Por que doar agora</h3>
+          <p>
+            Manter esse trabalho exige recursos contínuos. Cada contribuição, de qualquer valor,
+            ajuda a garantir comida, tratamento e novas oportunidades de vida para esses gatos.
+          </p>
+          <p>
+            Sua doação fortalece uma corrente de amor que já transforma vidas todos os dias.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="donate section" id="doar">
+      <div class="container donate__box">
+        <h2>Pix para doação</h2>
+        <p class="pix-label">Chave Pix (e-mail):</p>
+        <div class="pix-row">
+          <code id="pixKey">tigeladoamor2022@gmail.com</code>
+          <button id="copyPix" class="btn btn--primary" type="button">Copiar Pix</button>
+        </div>
+        <p id="copyFeedback" class="feedback" aria-live="polite"></p>
+
+        <p class="donate__final">
+          Junte-se a nós e faça parte dessa corrente de amor pelos animais.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Projeto Tigelo do Amor • Solidariedade que alimenta, cuida e transforma.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
